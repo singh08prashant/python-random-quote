@@ -5,7 +5,7 @@ def primary():
   f = open("quotes.txt")
   quotes = f.readlines()
   f.close()
-  last = 15
+  last = 100
   rnd1 = random.randint(0, last)
   rnd2 = random.randint(0, last)
 
